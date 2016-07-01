@@ -2,7 +2,7 @@ var bio = {
     "name": "Michael Kuehn",
     "role": "Front-End Developer",
     "contacts": {
-        "mobile": "440-623-7463",
+        "mobile": "304-807-9843",
         "email": "mkuehn10@gmail.com",
         "github": "mkuehn10",
         "twitter": "mkuehn10",

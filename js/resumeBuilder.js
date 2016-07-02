@@ -92,8 +92,9 @@ education.display = function() {
         var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", school.majors.join(", "));
         $(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree, formattedSchoolDates, formattedSchoolLocation, formattedSchoolMajor);
     });
-    $(".education-entry:last").append(HTMLonlineClasses);
+    $("#education").append(HTMLonlineClasses);
     education.onlineCourses.forEach(function(course) {
+        $("#education").append(HTMLschoolStart);
         var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", course.title).replace("#", course.url);
         var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", course.school);
         var formattedOnlineDates = HTMLonlineDates.replace("%data%", course.dates);
@@ -140,8 +141,9 @@ work.display = function() {
         var formattedEmployer = HTMLworkEmployer.replace("%data%", job.employer).replace("#", job.url);
         var formattedTitle = HTMLworkTitle.replace("%data%", job.title);
         var formattedWorkDate = HTMLworkDates.replace("%data%", job.dates);
+        var formattedWorkLocation = HTMLworkLocation.replace("%data%", job.location);
         var formattedWorkDescription = HTMLworkDescription.replace("%data%", job.description);
-        $(".work-entry:last").append(formattedEmployer + formattedTitle, formattedWorkDate, formattedWorkDescription);
+        $(".work-entry:last").append(formattedEmployer + formattedTitle, formattedWorkDate, formattedWorkLocation, formattedWorkDescription);
     });
 };
 

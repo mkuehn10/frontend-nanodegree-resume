@@ -60,14 +60,14 @@ var education = {
         "degree": "M.A.",
         "majors": ["Mathematics Education (5-12)"],
         "dates": "2011-2013",
-        "url": "http://www.wgu.edu"
+        "url": "http://www.wgu.edu/wgu/credit/program546b"
     }, {
         "name": "United States Military Academy",
         "location": "West Point, New York",
         "degree": "B.S.",
         "majors": ["Information Systems Engineering", "Computer Science"],
         "dates": "1999-2003",
-        "url": "http://www.usma.edu"
+        "url": "http://www.usma.edu/eecs"
     }],
     "onlineCourses": [{
         "title": "Front-End Developer Nanodegree",
@@ -150,13 +150,13 @@ var projects = {
         "title": "Online Portfolio",
         "dates": "2016",
         "description": "I created an online portfolio to showcase all of my web development and data analysis projects.",
-        "images": ["images/portfolio.jpg"],
+        "images": ["images/portfolio.jpg", "images/portfolio2.jpg"],
         "url": "https://mkuehn10.github.io/"
     }, {
         "title": "Identify Fraud at Enron",
         "dates": "2016",
         "description": "Identified which Enron employees are more likely to have committed fraud using machine learning and public Enron financial and email data.",
-        "images": ["images/enron2.jpg"],
+        "images": ["images/enron1.jpg", "images/enron2.jpg"],
         "url": "https://github.com/mkuehn10/P5-Identify-Fraud-from-Enron"
     }]
 };

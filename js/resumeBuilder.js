@@ -108,28 +108,28 @@ var work = {
         "title": "Evaluation Faculty, Teacher Education",
         "location": "Charleston, West Virginia",
         "dates": "2014-Present",
-        "description": "Job Description",
+        "description": "Evaluate student submissions in various math content and pedagogy areas.",
         "url": "http://www.wgu.edu"
     }, {
         "employer": "Kanawha County Schools",
         "title": "Mathematics Teacher",
         "location": "Charleston, West Virginia",
         "dates": "2010-2015",
-        "description": "Job Description",
+        "description": "8th grade and High School Mathematics Teacher.  Taught AP Calculus, AP Statistics, Trigonometry, Algebra 2, and other courses.",
         "url": "http://kcs.kana.k12.wv.us"
     }, {
         "employer": "American Tank & Fabricating",
         "title": "Project Administrator",
         "location": "Cleveland, Ohio",
         "dates": "2008-2010",
-        "description": "Job Description",
+        "description": "Managed the entire spectrum of manufacturing operations for several product lines including the largest customer for the Heavy Fabricating Division.",
         "url": "http://www.atfco.com"
     }, {
         "employer": "United States Army",
         "title": "Enlisted Soldier, Cadet, and Officer",
         "location": "Schofield Barracks, Hawaii",
         "dates": "1998-2008",
-        "description": "Job Description",
+        "description": "Served as a Medical Service Corps Officer while deployed to Afghanistan and Iraq.",
         "url": "https://www.army.mil/"
     }]
 };
